@@ -11,6 +11,7 @@ from django.contrib.auth import authenticate, login, logout
 
 
 def index(request):
+    
     return render(request,'registration/index.html')
 
 @login_required()
